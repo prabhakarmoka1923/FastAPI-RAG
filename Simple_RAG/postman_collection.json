@@ -1,0 +1,88 @@
+{
+  "info": {
+    "name": "Podcast RAG API",
+    "description": "Three requests covering the full Podcast RAG FastAPI backend.\nSet X-API-Key to 'dev-key-123' (already pre-filled).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /health",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8000/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["health"]
+        },
+        "description": "Liveness check. No auth required. Returns sources_loaded count."
+      }
+    },
+    {
+      "name": "POST /ingest",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "dev-key-123",
+            "description": "API key for auth"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "description": "Select a .srt or .txt transcript file from your machine"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8000/ingest",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["ingest"]
+        },
+        "description": "Upload a podcast transcript (.srt or .txt). Returns chunk count and cache status."
+      }
+    },
+    {
+      "name": "POST /ask",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-API-Key",
+            "value": "dev-key-123",
+            "description": "API key for auth"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"query\": \"What did the guest say about AI?\",\n  \"top_k\": 5\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8000/ask",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["ask"]
+        },
+        "description": "Query the RAG index. Returns ranked source chunks + formatted context string."
+      }
+    }
+  ]
+}

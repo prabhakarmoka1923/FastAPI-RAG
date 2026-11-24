@@ -1,0 +1,792 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "The following is a conversation with Andrew Ng, one of the most impactful educators, researchers, innovators, and leaders in artificial intelligence and technology space in general. He co-founded Coursera and Google Brain, launched Deep Learning AI, Landing AI, and the AI Fund, and was the chief scientist at Baidu. As a Stanford professor and with Coursera and Deep Learning AI, he has helped educate and inspire millions of students, including me. This is the Artificial Intelligence Podcast. If you enjoy it, subscribe on YouTube, give it 5 stars on Apple Podcasts, support it on Patreon, or simply connect with me on Twitter at Lex Friedman, spelled F-R-I -D-M-A-N. As usual, I'll do one or two minutes of ads now, and never any ads in the middle that can break the flow of the conversation. I hope that works for you and doesn't hurt the listening experience. This show is presented by Cash App, the number one finance app in the App Store. When you get it, use code LEXPODCAST. Cash App lets you send money to friends, buy Bitcoin, and invest in the stock market with as little as $1. Brokerage services are provided by Cash App Investing, a subsidiary of Square, and member SIPC. Since Cash App allows you to buy Bitcoin, let me mention that cryptocurrency in the context of the history of money is fascinating. I recommend Ascent of Money as a great book on this history. Debits and credits on ledgers started over 30 ,000 years ago, the US dollar was created over 200 years ago, and Bitcoin, the first decentralised cryptocurrency, released just over 10 years ago. So given that history, cryptocurrency is still very much in its early days of development, but it's still aiming to, and just might, redefine the nature of money. So again, if you get Cash App from the App Store or Google Play, and use the code LEXPODCAST, you'll get $10, and Cash App will also donate $10 to FIRST, one of my favourite organisations that is helping to advance robotics and STEM education for young people around the world. And now here's my conversation with Andrew Ng. The courses you taught on machine learning at Stanford, and later on Coursera that you co -founded, have educated and inspired millions of people. So let me ask you, what people or ideas inspired you to get into",
+    "start_time": "00:00:00.150",
+    "end_time": "00:02:37.770",
+    "char_start": 0,
+    "char_end": 2274,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 1,
+    "text": "to FIRST, one of my favourite organisations that is helping to advance robotics and STEM education for young people around the world. And now here's my conversation with Andrew Ng. The courses you taught on machine learning at Stanford, and later on Coursera that you co -founded, have educated and inspired millions of people. So let me ask you, what people or ideas inspired you to get into computer science and machine learning when you were young? When did you first fall in love with the field, is another way to put it? Growing up in Hong Kong and Singapore, I started learning to code when I was five or six years old. At that time, I was learning the basic programming language, and I would take these books and they'll tell you, type this programme into your computer, so type that programme to my computer. And as a result of all that typing, I would get to play these very simple shoot-them-up games that I had implemented on my little computer. So I thought it was fascinating as a young kid that I could write this code, that was really just copying code from a book into my computer, to then play these cool little video games. Another moment for me was when I was a teenager, and my father, because he's a doctor, was reading about expert systems and about neural networks. So he got me to read some of these books, and I thought it was really cool, you could write a that started to exhibit intelligence. Then I remember doing an internship while I was in high school, this was in Singapore, where I remember doing a lot of photocopying as an office assistant. And the highlight of my job was when I got to use the Shredder. So the teenager in me remember thinking, boy, this is a lot of photocopying. If only we could write software, build a robot, something to automate this, maybe I could do something else. So I think a lot of my work since then has centred on the theme of automation. Even the way I think about machine learning today, we're very good at writing learning algorithms that can automate things that people can do. Or even launching the first MOOCs, Massive Open Online Courses, that later led to Coursera, I was trying to automate what could be automatable in how I was teaching on campus. The process of education tried to automate parts of that to have more impact from a single teacher, a single educator.",
+    "start_time": "00:01:59.390",
+    "end_time": "00:04:34.130",
+    "char_start": 1882,
+    "char_end": 4225,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 2,
+    "text": "we're very good at writing learning algorithms that can automate things that people can do. Or even launching the first MOOCs, Massive Open Online Courses, that later led to Coursera, I was trying to automate what could be automatable in how I was teaching on campus. The process of education tried to automate parts of that to have more impact from a single teacher, a single educator. Yeah, I felt, you know, teaching at Stanford, I was teaching machine learning to about 400 students a year at the time. And I found myself filming the exact same video every year, telling the same jokes in the same room. And I thought, why am I doing this? Why don't we just take last year's video, and then I can spend my time building a deeper relationship with students. So that process of thinking through how to do that, that led to the first MOOCs that we launched. And then you have more time to write new jokes. Are there favourite memories from your early days at Stanford, teaching thousands of people in person and then millions of people online? You know, teaching online, what not many people know was that a lot of those videos were shot between the hours of 10pm and 3am. A lot of times, launching the first MOOCs at Stanford, we'd already announced the course, about 100,000 people had signed up. We just started to write the code, and we had not yet actually filmed the video. So we had a lot of pressure, 100 ,000 people waiting for us to produce the content. So many Fridays, Saturdays, I would go out, have dinner with my friends, and then I would think, okay, do I want to go home now, or do I want to go to the office to film videos? And the thought of being able to help 100,000 people potentially learn machine learning, fortunately, that made me think, okay, I'm going to go to my office, go to my tiny little recording studio. I would adjust my Logitech webcam, adjust my Wacom tablet, make sure my lapel mic was on, and then I would start recording, often until 2am or 3am. I think, unfortunately, that doesn't show that it was recorded that late at night, but it was really inspiring, the thought that we could create content to help so many people learn about machine learning. How did that feel,",
+    "start_time": "00:04:07.390",
+    "end_time": "00:06:27.810",
+    "char_start": 3839,
+    "char_end": 6051,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 3,
+    "text": "webcam, adjust my Wacom tablet, make sure my lapel mic was on, and then I would start recording, often until 2am or 3am. I think, unfortunately, that doesn't show that it was recorded that late at night, but it was really inspiring, the thought that we could create content to help so many people learn about machine learning. How did that feel, the fact that you're probably somewhat alone, maybe a couple of friends, recording with a Logitech webcam, and kind of going home alone at 1 or 2 a .m. at night, and knowing that that's going to reach thousands of people, eventually millions of people? What's that feeling like? Is there a feeling of just satisfaction, of pushing through? I think it's humbling, and I wasn't thinking about what I was feeling. I think one thing that I'm proud to say we got right from the early days was, I told my whole team back then that the number one priority is to do what's best for learners, do what's best for students. And so when I went to the recording studio, the only thing on my mind was, what can I say? How can I design my slides? What do I need to draw right to make these concepts as clear as possible for learners? I think, you know, I've seen sometimes instructors are tempting to, hey, let's talk about my work. Maybe if I teach you about my research, someone will cite my papers a couple more times. And I think one of the things we got right, launching the first few MOOCs and later building Coursera, was putting in place that bedrock principle of, let's just do what's best for learners and forget about everything else. And I think that that as a guiding principle turned out to be really important to the rise of the MOOC movement. And the kind of learner you imagined in your mind is as broad as possible, as global as possible. So really try to reach as many people interested in machine learning and AI as possible. I really want to help anyone that has an interest in machine learning to break into the field. And I think sometimes, I've actually had people ask me, hey, why are you spending so much time explaining gradient descent? And my answer was, if I look at what I think the learner needs and would benefit from, I felt that having a good understanding of the foundations,",
+    "start_time": "00:05:54.870",
+    "end_time": "00:08:25.850",
+    "char_start": 5706,
+    "char_end": 7948,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 501
+  },
+  {
+    "chunk_id": 4,
+    "text": "AI as possible. I really want to help anyone that has an interest in machine learning to break into the field. And I think sometimes, I've actually had people ask me, hey, why are you spending so much time explaining gradient descent? And my answer was, if I look at what I think the learner needs and would benefit from, I felt that having a good understanding of the foundations, coming back to the basics, would put them in a better state to then build on a long-term career. So try to consistently make decisions on that principle. So one of the things you actually revealed to the narrow AI community at the time and to the world is that the amount of people who are actually interested in AI is much larger than we imagined. By you teaching the class and how popular it became, it showed that, wow, this isn't just a small community of sort of people who go to NeurIPS and it's much bigger. It's developers, it's people from all over the world. I mean, I'm Russian, so everybody in Russia is really interested. There's a huge number of programmers who are interested in machine learning. India, China, South America, everywhere. There's just millions of people who are interested in machine learning. So how big do you get a sense that this, the number of people is that are interested from your perspective? I think the number has grown over time. I think it's one of those things that maybe it feels like it came out of nowhere, but it's an inside building. It took years. It's one of those overnight successes that took years to get there. My first foray into this type of online education was when we were filming my Stanford class and sticking the videos on YouTube. And then some other things, we had uploaded the whole world and so on, but it's basically the one hour, 15 minute video that we put on YouTube. And then we had four or five other versions of websites that I had built, most of which you would never have heard of because they reach small audiences, but that allowed me to iterate, allow my team and me to iterate, to learn what are the ideas that work and what doesn't. For example, one of the features I was really excited about and really proud of was build this website where multiple people could be logged into the website at the same time. So today, if you go to a website, if you're logged in and then",
+    "start_time": "00:07:54.070",
+    "end_time": "00:10:10.750",
+    "char_start": 7567,
+    "char_end": 9902,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 5,
+    "text": "audiences, but that allowed me to iterate, allow my team and me to iterate, to learn what are the ideas that work and what doesn't. For example, one of the features I was really excited about and really proud of was build this website where multiple people could be logged into the website at the same time. So today, if you go to a website, if you're logged in and then I want to log in, you need to log out if it's the same browser, same computer. But I thought, well, what if two people, say you and me, were watching a video together in front of a computer? What if a website could have you type your name and password, have me type my name and password, and then now the computer knows both of us are watching together and it gives both of us credit for anything we do as a group. Influences feature rolled out in a school in San Francisco. We had about 20 something users. Where's the teacher there? Sacred Heart Cathedral Prep. The teacher was great. And guess what? Zero people use this feature. It turns out people studying online, they want to watch the videos by themselves. So you can play back, pause at your own speed rather than in groups. So that was one example of a tiny lesson learned out of many that allowed us to hone into the set of features. And it sounds like a brilliant feature. So I guess the lesson to take from that is there's something that looks amazing on paper and then nobody uses it. It doesn't actually have the impact that you think it might have. So yeah, I saw that you really went through a lot of different features and a lot of ideas to arrive at the final, at Coursera, the final kind of powerful thing that showed the world that MOOCs can educate millions. And I think with the machine learning movement as well, I think it didn't come out of nowhere. Instead, what happened was as more people learn about machine learning, they will tell their friends and their friends will see how it's applicable to their work. And then the community kept on growing. And I think we're still growing. I don't know in the future what percentage of our developers will be AI developers. I could easily see it being north of 50%, right? Because so many AI developers, broadly construed, not just people doing the machine learning modelling, but the people building infrastructure, data pipelines,",
+    "start_time": "00:09:47.130",
+    "end_time": "00:12:14.730",
+    "char_start": 9532,
+    "char_end": 11857,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 6,
+    "text": "it's applicable to their work. And then the community kept on growing. And I think we're still growing. I don't know in the future what percentage of our developers will be AI developers. I could easily see it being north of 50%, right? Because so many AI developers, broadly construed, not just people doing the machine learning modelling, but the people building infrastructure, data pipelines, all the softwares surrounding the core machine learning model maybe is even bigger. I feel like today, almost every software engineer has some understanding of the cloud. Not all, but maybe there's a microcontroller developer that doesn't need to deal with the cloud. But I feel like the vast majority of software engineers today are sort of having an appreciation of the cloud. I think in the future, maybe we'll approach nearly 100% of all developers being, in some way, an AI developer, at least having an appreciation of machine learning. And my hope is that there's this kind of effect that there's people who are not really interested in being a programmer or being into software engineering, like biologists, chemists, and physicists, even mechanical engineers, all these disciplines that are now more and more sitting on large data sets. And here, they didn't think they're interested in programming until they have this data set, and they realise there's this set of machine learning tools that allow you to use the data set. So they actually become, they learn to programme, and they become new programmers. So not just because you've mentioned a larger percentage of developers become machine learning people, it seems like more and more the kinds of people who are becoming developers is also growing significantly. I think once upon a time, only a small part of humanity was literate, could read and write. And maybe you thought, maybe not everyone needs to learn to read and write. You just go listen to a few monks read to you, and maybe that was enough. Or maybe you just need a few handful of authors to write the best sellers, and then no one else needs to write. But what we found was that by giving as many people, you know, in some countries, almost everyone, basic literacy, it dramatically enhanced human -to-human communications. And we can now write for an audience of one, such as if I send you an email, or you send me an email. I think in computing, we're still in that phase where so few people know how to code,",
+    "start_time": "00:11:38.350",
+    "end_time": "00:14:03.370",
+    "char_start": 11461,
+    "char_end": 13899,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 501
+  },
+  {
+    "chunk_id": 7,
+    "text": "what we found was that by giving as many people, you know, in some countries, almost everyone, basic literacy, it dramatically enhanced human -to-human communications. And we can now write for an audience of one, such as if I send you an email, or you send me an email. I think in computing, we're still in that phase where so few people know how to code, that the coders mostly have to code for relatively large audiences. But if everyone, or most people, became developers at some level, similar to how most people in developed economies are somewhat literate, I would love to see the owners of a mom -and-pop store be able to write a little bit of code to customise the TV display for their special this week. And I think it'll enhance human-to-computer communications, which is becoming more and more important today as well. So you think it's possible that machine learning becomes kind of similar to literacy, where, yeah, like you said, the owners of a mom -and-pop shop is basically everybody in all walks of life would have some degree of programming capability? I could see society getting there. There's one other interesting thing, you know, if I go talk to the mom-and-pop store, if I talk to a lot of people in their daily professions, I previously didn't have a good story for why they should learn to code. You know, we could give them some reasons. But what I found with the rise of machine learning and data science is that I think the number of people with a concrete use for data science in their daily lives, in their jobs, may be even larger than the number of people with a concrete use for software engineering. For example, actually, if you run a small mom-and-pop store, I think if you can analyse the data about your sales, your customers, I think there's actually real value there, maybe even more than traditional software engineering. So I find that for a lot of my friends in various professions, be it recruiters or accountants or, you know, people that work in factories, which I deal with more and more these days, I feel if they were data scientists at some level, they could immediately use that in their work. So I think that data science and machine learning may be an even easier entree into the developer world for a lot of people than the software engineering. That's interesting. And I agree with that, but that's beautifully",
+    "start_time": "00:00:00.150",
+    "end_time": "00:16:03.130",
+    "char_start": 13544,
+    "char_end": 15911,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 8,
+    "text": "people that work in factories, which I deal with more and more these days, I feel if they were data scientists at some level, they could immediately use that in their work. So I think that data science and machine learning may be an even easier entree into the developer world for a lot of people than the software engineering. That's interesting. And I agree with that, but that's beautifully put. We live in a world where most courses and talks have slides, PowerPoint, keynote, and yet you famously often still use a marker and a whiteboard. The simplicity of that is compelling and, for me at least, fun to watch. So let me ask, why do you like using a marker and whiteboard, even on the biggest of stages? I think it depends on the concepts you want to explain. For mathematical concepts, it's nice you can build up the equation one piece at a time. And the whiteboard marker or the pen and stylus is a very easy way to build up an equation, build up a complex concept one piece at a time while you're talking about it. And sometimes that enhances understandability. The downside of writing is that it's slow. And so if you want a long sentence, it's very hard to write that. So I think there are pros and cons. And sometimes I use slides, and sometimes I use a whiteboard or a stylus. The slowness of a whiteboard is also its upside, because it forces you to reduce everything to the basics. Some of your talks involve the whiteboard. I mean, you go very slowly and you really focus on the most simple principles. And that's a beautiful... That enforces a kind of a minimalism of ideas that I think is, surprisingly at least for me, is great for education. A great talk, I think, is not one that has a lot of content. A great talk is one that just clearly says a few simple ideas. And I think the whiteboard somehow enforces that. Peter Abbeel, who's now one of the top roboticists and reinforcement learning experts in the world, was your first PhD student. So I bring him up just because I kind of imagine this must have been an interesting time in your life. Do you have any favourite memories of working with Peter, your first student, in those uncertain times, especially before deep learning really sort of blew up? Any favourite memories from those times? Yeah, I was",
+    "start_time": "00:15:25.350",
+    "end_time": "00:18:14.970",
+    "char_start": 15518,
+    "char_end": 17798,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 9,
+    "text": "roboticists and reinforcement learning experts in the world, was your first PhD student. So I bring him up just because I kind of imagine this must have been an interesting time in your life. Do you have any favourite memories of working with Peter, your first student, in those uncertain times, especially before deep learning really sort of blew up? Any favourite memories from those times? Yeah, I was really fortunate to have had Peter Abbeel as my first PhD student. And I think even my long-term professional success builds on early foundations or early work that Peter was so critical to. So I was really grateful to him for working with me. What not a lot of people know is just how hard research was and still is. Peter's PhD thesis was using reinforcement learning to fly helicopters. And so, even today, the website heli.stanford .edu, H-E-L-I.stanford.edu is still up. You can watch videos of us using reinforcement learning to make a helicopter fly upside down, fly loops, rows. It's just cool. It's one of the most incredible robotics videos ever. People should watch it. It's inspiring. That's from like 2008 or 7 or 6, like that range. Yeah, something like that. It was over 10 years old. That was really inspiring to a lot of people. What not many people see is how hard it was. So Peter and Adam Coates and Morgan Quigley and I were working on various versions of the helicopter and a lot of things did not work. For example, it turns out one of the hardest problems we had was when helicopters flying around upside down, doing stunts, how do you figure out the position? How do you localise a helicopter? So we wanted to try all sorts of things. Having one GPS unit doesn't work because you're flying upside down. The GPS unit is facing down so you can't see the satellites. So we experimented trying to have two GPS units, one facing up, one facing down. So if you flip over, that didn't work because the downward facing one couldn't synchronise if you're flipping quickly. Morgan Quigley was exploring this crazy complicated configuration of specialised hardware to interpret GPS signals. Look into FPGAs, completely insane. Spent about a year working on that, didn't work. So I remember Peter, great guy, him and me, sitting down in my office looking at some of the latest",
+    "start_time": "00:17:37.110",
+    "end_time": "00:20:06.390",
+    "char_start": 17394,
+    "char_end": 19688,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 10,
+    "text": "didn't work because the downward facing one couldn't synchronise if you're flipping quickly. Morgan Quigley was exploring this crazy complicated configuration of specialised hardware to interpret GPS signals. Look into FPGAs, completely insane. Spent about a year working on that, didn't work. So I remember Peter, great guy, him and me, sitting down in my office looking at some of the latest things we had tried that didn't work and saying, you know, darn it, what now? Because we tried so many things and it just didn't work. In the end, what we did, and Adam Coates was crucial to this, was put cameras on the ground and use cameras on the ground to localise a helicopter. And that solved the localisation problem so that we could then focus on the reinforcement learning and inverse reinforcement learning techniques so it didn't actually make a helicopter fly. And, you know, I'm reminded when I was doing this work at Stanford, around that time, there was a lot of reinforcement learning theoretical papers, but not a lot of practical applications. So the autonomous helicopter work for flying helicopters was one of the few, you know, practical applications of reinforcement learning at the time, which caused it to become pretty well known. I feel like we might have almost come full circle with today. There's so much buzz, so much hype, so much excitement about reinforcement learning. But again, we're hunting for more applications of all of these great ideas that the communities come up with. What was the drive, sort of in the face of the fact that most people are doing theoretical work, what motivate you in the uncertainty and the challenges to get the helicopter, sort of to do the applied work, to get the actual system to work? Yeah, in the face of fear, uncertainty, sort of the setbacks that you mentioned for localisation. I like stuff that works. In the physical world, so like, it's back to the shredder. You know, I like theory, but when I work on theory myself, and this is personal taste, I'm not saying anyone else should do what I do, but when I work on theory, I personally enjoy it more if I feel that the work I do will influence people, have a positive impact, or help someone. I remember when, many years ago, I was speaking with a mathematics professor, and it kind of just said, hey, why do you do what you do?",
+    "start_time": "00:19:38.710",
+    "end_time": "00:22:10.610",
+    "char_start": 19295,
+    "char_end": 21643,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 11,
+    "text": "taste, I'm not saying anyone else should do what I do, but when I work on theory, I personally enjoy it more if I feel that the work I do will influence people, have a positive impact, or help someone. I remember when, many years ago, I was speaking with a mathematics professor, and it kind of just said, hey, why do you do what you do? And he said, he actually, you know, he had stars in his eyes when he answered. And this mathematician, not from Stanford, a different university, he said, I do what I do because it helps me to discover truth and beauty in the universe. He had stars in his eyes when he said that, and I thought that's great. I don't want to do that. I think it's great that someone does that, fully support the people that do it, a lot of respect for people that do that, but I am more motivated when I can see a line to how the work that my teams and I are doing helps people. The world needs all sorts of people. I'm just one type. I don't think everyone should do things the same way as I do, but when I delve into either theory or practise, if I personally have conviction that here's a pathway to help people, I find that more satisfying to have that conviction. That's your path. You were a proponent of deep learning before it gained widespread acceptance. What did you see in this field that gave you confidence? What was your thinking process like in that first decade of the, I don't know what that's called, 2000s, the aughts? I can tell you the thing we got wrong and the thing we got right. The thing we really got wrong was the early importance of unsupervised learning. Early days of Google Brain, we put a lot of effort into unsupervised learning rather than supervised learning. There was this argument, I think it was around 2005, after NeurIPS, at that time called NIPS, but now NeurIPS had ended. Jeff Hinton and I were sitting in the cafeteria outside the conference. We had lunch. We were chatting. Jeff pulled out this napkin. He started sketching this argument on the napkin. It was very compelling. I'll repeat it. Human brain has about 100 trillion, so there's 10 to the 14 synaptic connections. You will",
+    "start_time": "00:21:39.230",
+    "end_time": "00:24:04.350",
+    "char_start": 21306,
+    "char_end": 23457,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 12,
+    "text": "but now NeurIPS had ended. Jeff Hinton and I were sitting in the cafeteria outside the conference. We had lunch. We were chatting. Jeff pulled out this napkin. He started sketching this argument on the napkin. It was very compelling. I'll repeat it. Human brain has about 100 trillion, so there's 10 to the 14 synaptic connections. You will live for about 10 to the 9 seconds. That's 30 years. You actually live for 2 by 10 to the 9, maybe 3 by 10 to the 9 seconds. Let's say 10 to the 9. If each synaptic connection, each weight in your brain's neural network has just a one-bit parameter, that's 10 to the 14 bits you need to learn in up to 10 to the 9 seconds of your life. So via this simple argument, which is a lot of problems, it's very simplified, that's 10 to the 5 bits per second you need to learn in your life. I have a one-year-old daughter. I am not pointing out 10 to 5 bits per second of labels to her. I think I'm a very loving parent, but I'm just not going to do that. From this very crude, definitely problematic argument, there's just no way that most of what we know is through supervised learning. But where you get so many bits of information is from sucking in images, audio, just experiences in the world. And so that argument, and there are a lot of no-forces arguments you can go into, really convinced me that there's a lot of power to unsupervised learning. So that was the part that we actually maybe got wrong. I still think unsupervised learning is really important, but in the early days, 10, 15 years ago, a lot of us thought that was the path forward. Oh, so you're saying that that perhaps was the wrong intuition for the time. For the time. That was the part we got wrong. The part we got right was the importance of scale. So Adam Coates, another wonderful person, fortunate to have worked with him, he was in my group at Stanford at the time, and Adam had run these experiments at Stanford showing that the bigger we train a learning algorithm, the better its performance. And it was based on that. There was a graph that Adam generated where the",
+    "start_time": "00:23:36.910",
+    "end_time": "00:26:07.150",
+    "char_start": 23117,
+    "char_end": 25203,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 13,
+    "text": "got wrong. The part we got right was the importance of scale. So Adam Coates, another wonderful person, fortunate to have worked with him, he was in my group at Stanford at the time, and Adam had run these experiments at Stanford showing that the bigger we train a learning algorithm, the better its performance. And it was based on that. There was a graph that Adam generated where the x-axis, y-axis lines going up into the right. So the bigger you make this thing, the better its performance, accuracy is the vertical axis. So it's really based on that chart that Adam generated that he gave me the conviction that we could scale these models way bigger than what we could on a few CPUs, which is where we had at Stanford, that we could get even better results. And it was really based on that one figure that Adam generated that gave me the conviction to go with Sebastian Thrun to pitch starting a project at Google, which became the Google Brain project. Google Brain, you go find Google Brain. And there the intuition was scale will bring performance for the system, so we should chase a larger and larger scale. And I think people don't realise how groundbreaking of a, it's simple, but it's a groundbreaking idea that bigger data sets will result in better performance. It was controversial at the time. Some of my well-meaning friends, you know, senior people in the machine learning community, I won't name, but who's people, some of whom we know, my well-meaning friends came and were trying to give me friendly advice, like, hey, Andrew, why are you doing this? This is crazy. It's in the near natural architecture. Look at these architectures we're building. You just want to go for scale? Like, this is a bad career move. So my well-meaning friends, you know, we're trying to, some of them were trying to talk me out of it. But I find that if you want to make a breakthrough, you sometimes have to have conviction and do something before it's popular, since that lets you have a bigger impact. Let me ask you just a small tangents on that topic. I find myself arguing with people saying that greater scale, especially in the context of active learning, so very carefully selecting the data set, but growing the scale of the data set is going to lead to even further breakthroughs in deep learning. And there's currently pushback at that",
+    "start_time": "00:25:32.570",
+    "end_time": "00:28:02.370",
+    "char_start": 24817,
+    "char_end": 27168,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 14,
+    "text": "popular, since that lets you have a bigger impact. Let me ask you just a small tangents on that topic. I find myself arguing with people saying that greater scale, especially in the context of active learning, so very carefully selecting the data set, but growing the scale of the data set is going to lead to even further breakthroughs in deep learning. And there's currently pushback at that idea that larger data sets are no longer, that, so you want to increase the efficiency of learning. You want to make better learning mechanisms. And I personally believe that just bigger data sets will still, with the same learning methods we have now, will result in better performance. What's your intuition at this time on this dual side? Do we need to come up with better architectures for learning, or can we just get bigger, better data sets that will improve performance? I think both are important. And it's also problem dependent. So for a few data sets, we may be approaching Bayes' error rate or approaching or surpassing human level performance. And then there's that theoretical ceiling that we will never surpass a Bayes' error rate. But then I think there are plenty of problems where we're still quite far from either human level performance or from Bayes' error rate. And bigger data sets with new networks, without further algorithmic innovation, will be sufficient to take us further. But on the flip side, if we look at the recent breakthroughs using, you know, transforming networks for language models, it was a combination of novel architecture, but also scale had a lot to do with it. If we look at what happened with, you know, GP2 and BERT, I think scale was a large part of the story. Yeah, that's not often talked about, is the scale of the data set it was trained on and the quality of the data set, because there's some, so it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:00:00.150",
+    "end_time": "00:29:46.470",
+    "char_start": 26775,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 461
+  },
+  {
+    "chunk_id": 15,
+    "text": "set, because there's some, so it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28593,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 81
+  },
+  {
+    "chunk_id": 16,
+    "text": "because there's some, so it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28598,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 79
+  },
+  {
+    "chunk_id": 17,
+    "text": "there's some, so it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28606,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 78
+  },
+  {
+    "chunk_id": 18,
+    "text": "some, so it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28614,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 76
+  },
+  {
+    "chunk_id": 19,
+    "text": "so it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28620,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 74
+  },
+  {
+    "chunk_id": 20,
+    "text": "it was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28623,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 73
+  },
+  {
+    "chunk_id": 21,
+    "text": "was redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28626,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 72
+  },
+  {
+    "chunk_id": 22,
+    "text": "redded threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28630,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 71
+  },
+  {
+    "chunk_id": 23,
+    "text": "threads that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28637,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 69
+  },
+  {
+    "chunk_id": 24,
+    "text": "that had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:10.010",
+    "end_time": "00:29:46.470",
+    "char_start": 28645,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 68
+  },
+  {
+    "chunk_id": 25,
+    "text": "had, they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28650,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 67
+  },
+  {
+    "chunk_id": 26,
+    "text": "they were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28655,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 65
+  },
+  {
+    "chunk_id": 27,
+    "text": "were uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28660,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 64
+  },
+  {
+    "chunk_id": 28,
+    "text": "uprated highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28665,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 63
+  },
+  {
+    "chunk_id": 29,
+    "text": "highly. So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28673,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 62
+  },
+  {
+    "chunk_id": 30,
+    "text": "So there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28681,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 59
+  },
+  {
+    "chunk_id": 31,
+    "text": "there's already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28684,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 58
+  },
+  {
+    "chunk_id": 32,
+    "text": "already some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28692,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 56
+  },
+  {
+    "chunk_id": 33,
+    "text": "some weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28700,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 55
+  },
+  {
+    "chunk_id": 34,
+    "text": "weak supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28705,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 54
+  },
+  {
+    "chunk_id": 35,
+    "text": "supervision on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28710,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 55
+  },
+  {
+    "chunk_id": 36,
+    "text": "on a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28722,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 52
+  },
+  {
+    "chunk_id": 37,
+    "text": "a very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28725,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 51
+  },
+  {
+    "chunk_id": 38,
+    "text": "very large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28727,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 50
+  },
+  {
+    "chunk_id": 39,
+    "text": "large data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28732,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 49
+  },
+  {
+    "chunk_id": 40,
+    "text": "data set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28738,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 48
+  },
+  {
+    "chunk_id": 41,
+    "text": "set that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28743,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 47
+  },
+  {
+    "chunk_id": 42,
+    "text": "that people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28747,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 46
+  },
+  {
+    "chunk_id": 43,
+    "text": "people don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:20.650",
+    "end_time": "00:29:46.470",
+    "char_start": 28752,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 45
+  },
+  {
+    "chunk_id": 44,
+    "text": "don't often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28759,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 44
+  },
+  {
+    "chunk_id": 45,
+    "text": "often talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28765,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 42
+  },
+  {
+    "chunk_id": 46,
+    "text": "talk about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28771,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 41
+  },
+  {
+    "chunk_id": 47,
+    "text": "about, right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28776,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 40
+  },
+  {
+    "chunk_id": 48,
+    "text": "right? I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28783,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 38
+  },
+  {
+    "chunk_id": 49,
+    "text": "I find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28790,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 36
+  },
+  {
+    "chunk_id": 50,
+    "text": "find that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28792,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 35
+  },
+  {
+    "chunk_id": 51,
+    "text": "that today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28797,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 34
+  },
+  {
+    "chunk_id": 52,
+    "text": "today we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28802,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 33
+  },
+  {
+    "chunk_id": 53,
+    "text": "we have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28808,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 32
+  },
+  {
+    "chunk_id": 54,
+    "text": "have maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28811,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 31
+  },
+  {
+    "chunk_id": 55,
+    "text": "maturing processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28816,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 30
+  },
+  {
+    "chunk_id": 56,
+    "text": "processes to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28825,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 29
+  },
+  {
+    "chunk_id": 57,
+    "text": "to managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28835,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 27
+  },
+  {
+    "chunk_id": 58,
+    "text": "managing code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28838,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 27
+  },
+  {
+    "chunk_id": 59,
+    "text": "code, things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28847,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 25
+  },
+  {
+    "chunk_id": 60,
+    "text": "things like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28853,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 23
+  },
+  {
+    "chunk_id": 61,
+    "text": "like Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28860,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 22
+  },
+  {
+    "chunk_id": 62,
+    "text": "Git, right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28865,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 21
+  },
+  {
+    "chunk_id": 63,
+    "text": "right? Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28870,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 19
+  },
+  {
+    "chunk_id": 64,
+    "text": "Version control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28877,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 17
+  },
+  {
+    "chunk_id": 65,
+    "text": "control. It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28885,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 16
+  },
+  {
+    "chunk_id": 66,
+    "text": "It took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28894,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 14
+  },
+  {
+    "chunk_id": 67,
+    "text": "took a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28897,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 13
+  },
+  {
+    "chunk_id": 68,
+    "text": "a long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28902,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 12
+  },
+  {
+    "chunk_id": 69,
+    "text": "long time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28904,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 11
+  },
+  {
+    "chunk_id": 70,
+    "text": "time to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28909,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 10
+  },
+  {
+    "chunk_id": 71,
+    "text": "to evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28914,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 9
+  },
+  {
+    "chunk_id": 72,
+    "text": "evolve the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28917,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 9
+  },
+  {
+    "chunk_id": 73,
+    "text": "the good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28924,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 7
+  },
+  {
+    "chunk_id": 74,
+    "text": "good processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28928,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 6
+  },
+  {
+    "chunk_id": 75,
+    "text": "processes. I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28933,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 6
+  },
+  {
+    "chunk_id": 76,
+    "text": "I remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28944,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 3
+  },
+  {
+    "chunk_id": 77,
+    "text": "remember when",
+    "start_time": "00:29:26.090",
+    "end_time": "00:29:46.470",
+    "char_start": 28946,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 2
+  },
+  {
+    "chunk_id": 78,
+    "text": "when",
+    "start_time": "00:29:40.050",
+    "end_time": "00:29:46.470",
+    "char_start": 28955,
+    "char_end": 28959,
+    "source": "62c92e297214491dabbf784dc94e3657_Andrew Ng_ Deep Learning, Education, and Real-World AI _ Lex Fridman Podcast #73",
+    "token_count": 1
+  }
+]

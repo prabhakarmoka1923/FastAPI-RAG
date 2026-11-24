@@ -1,0 +1,772 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "I think it's possible that physics has exploits and we should be trying to find them, arranging some kind of a crazy quantum mechanical system that somehow gives you buffer overflow, somehow gives you a rounding error in the floating point. Synthetic intelligences are kind of like the next stage of development. And I don't know where it leads to, like at some point I suspect the universe is some kind of a puzzle. These synthetic AIs will uncover that puzzle and solve it. The following is a conversation with Andrej Karpathy, previously the director of AI at Tesla and before that at OpenAI and Stanford. He is one of the greatest scientists, engineers and educators in the history of artificial intelligence. This is the Lex Friedman podcast. To support it, please check out our sponsors. And now, dear friends, here's Andrej Karpathy. What is a neural network and why does it seem to do such a surprisingly good job of learning? What is a neural network? It's a mathematical abstraction of the brain, I would say. That's how it was originally developed. At the end of the day, it's a mathematical expression and it's a fairly simple mathematical expression when you get down to it. It's basically a sequence of matrix multiplies, which are really dot products mathematically and some nonlinearities thrown in. And so it's a very simple mathematical expression and it's got knobs in it. Many knobs. Many knobs. And these knobs are loosely related to basically the synapses in your brain. They're trainable, they're modifiable. And so the idea is like we need to find the setting of the knobs that makes the neural net do whatever you want it to do, like classify images and so on. And so there's not too much mystery, I would say, in it. You might think that basically you don't want to endow it with too much meaning with respect to the brain and how it works. It's really just a complicated mathematical expression with knobs and those knobs need a proper setting for it to do something desirable. Yeah, but poetry is just a collection of letters with spaces that make us feel a certain way. And in that same way, when you get a large number of knobs together, whether it's inside the brain or inside a computer, they seem to surprise us with their power. Yeah, I think that's fair. So basically, I'm underselling it by a lot because you definitely do get",
+    "start_time": "00:00:00.020",
+    "end_time": "00:02:32.860",
+    "char_start": 0,
+    "char_end": 2362,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 1,
+    "text": "Yeah, but poetry is just a collection of letters with spaces that make us feel a certain way. And in that same way, when you get a large number of knobs together, whether it's inside the brain or inside a computer, they seem to surprise us with their power. Yeah, I think that's fair. So basically, I'm underselling it by a lot because you definitely do get very surprising emergent behaviours out of these neural nets when they're large enough and trained on complicated enough problems, like say, for example, the next word prediction in a massive data set from the internet. And then these neural nets take on pretty surprising magical properties. Yeah, I think it's kind of interesting how much you can get out of even very simple mathematical formalism. When your brain right now is talking, is it doing next word prediction or is it doing something more interesting? Well, it's definitely some kind of a generative model that's GPT-like and prompted by you. Yeah. So you're giving me a prompt and I'm kind of like responding to it in a generative way. And by yourself, perhaps a little bit. Like, are you adding extra prompts from your own memory inside your head? Well, it definitely feels like you're referencing some kind of a declarative structure of like memory and so on. And then you're putting that together with your prompt and giving away some How much of what you just said has been said by you before? Nothing, basically, right? No, but if you actually look at all the words you've ever said in your life, and you do a search, you'll probably said a lot of the same words in the same order before. Yeah, could be. I mean, I'm using phrases that are common, etc. But I'm remixing it into a pretty sort of unique sentence at the end of the day. But you're right, definitely there's like a tonne of remixing. Why? It's like Magnus Carlsen said, I'm rated 2 ,900 whatever, which is pretty decent. I think you're talking very, you're not giving enough credit to neural nets here. Why do they seem to, what's your best intuition about this emergent behaviour? I mean, it's kind of interesting because I'm simultaneously underselling them. But I also feel like there's an element to which I'm over, like, it's actually kind of incredible that you",
+    "start_time": "00:01:52.720",
+    "end_time": "00:04:16.880",
+    "char_start": 2005,
+    "char_end": 4262,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 2,
+    "text": "is pretty decent. I think you're talking very, you're not giving enough credit to neural nets here. Why do they seem to, what's your best intuition about this emergent behaviour? I mean, it's kind of interesting because I'm simultaneously underselling them. But I also feel like there's an element to which I'm over, like, it's actually kind of incredible that you can get so much emergent magical behaviour out of them, despite them being so simple mathematically. So I think those are kind of like two surprising statements that are kind of juxtaposed together. And I think basically what it is, is we are actually fairly good at optimising these neural nets. And when you give them a hard enough problem, they are forced to learn very interesting solutions in the optimisation. And those solution basically have these emergent properties that are very interesting. There's wisdom and knowledge in the knobs. And so this representation that's in the knobs, does it make sense to you intuitively that a large number of knobs can hold a representation that captures some deep wisdom about the data it has looked at? It's a lot of knobs. It's a lot of knobs. And somehow, you know, so speaking concretely, one of the neural nets that people are very excited about right now are GPTs, which are basically just next word prediction networks. So you consume a sequence of words from the internet, and you try to predict the next word. And once you train these on a large enough data set, you can basically prompt these neural nets in arbitrary ways, and you can ask them to solve problems, and they will. So you can just tell them, you can make it look like you're trying to solve some kind of a mathematical problem, and they will continue what they think is the solution based on what they've seen on the internet. And very often, those solutions look very remarkably consistent, look correct potentially. Do you still think about the brain side of it? So as neural nets is an abstraction, a mathematical abstraction of the brain, you still draw wisdom from the biological neural networks? Or even the bigger question, so you're a big fan of biology and biological computation. What impressive thing is biology doing to you that computers are not yet? That gap. I would say I'm definitely on, I'm much more hesitant with the analogies to the brain than I think you would see potentially in the field. And",
+    "start_time": "00:03:46.040",
+    "end_time": "00:06:15.020",
+    "char_start": 3898,
+    "char_end": 6300,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 3,
+    "text": "the brain, you still draw wisdom from the biological neural networks? Or even the bigger question, so you're a big fan of biology and biological computation. What impressive thing is biology doing to you that computers are not yet? That gap. I would say I'm definitely on, I'm much more hesitant with the analogies to the brain than I think you would see potentially in the field. And I kind of feel like certainly the way neural networks started is everything stemmed from inspiration by the brain. But at the end of the day, the artefacts that you get after training, they are arrived at by a very different optimisation process than the optimisation process that gave rise to the brain. And so I think I kind of think of it as a very complicated alien artefact. It's something different. I'm sorry, the neural nets that we're training. They are complicated alien artefact. I do not make analogies to the brain because I think the optimisation process that gave rise to it is very different from the brain. So there was no multi-agent self-play kind of setup and evolution. It was an optimisation that is basically what amounts to a compression objective on a massive amount of data. Okay, so artificial neural networks are doing compression and biological neural networks are trying to survive and are not really doing anything. They're an agent in a multi-agent self -play system that's been running for a very, very long time. That said, evolution has found that it is very useful to predict and have a predictive model in the brain. And so I think our brain utilises something that looks like that as a part of it, but it has a lot more, you know, gadgets and gizmos and value functions and ancient nuclei that are all trying to like make it survive and reproduce and everything else. And the whole thing through embryogenesis is built from a single cell. I mean, it's just, the code is inside the DNA and it just builds it up, like the entire organism with arms and a head and legs. And like it does it pretty well. It should not be possible. So there's some learning going on. There's some kind of computation going through that building process. I mean, I don't know where, if you were just to look at the entirety of history of life on earth, what do you think is the most interesting invention? Is it the origin of life itself? Is it just jumping to eukaryotes?",
+    "start_time": "00:05:45.460",
+    "end_time": "00:08:15.080",
+    "char_start": 5916,
+    "char_end": 8288,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 503
+  },
+  {
+    "chunk_id": 4,
+    "text": "well. It should not be possible. So there's some learning going on. There's some kind of computation going through that building process. I mean, I don't know where, if you were just to look at the entirety of history of life on earth, what do you think is the most interesting invention? Is it the origin of life itself? Is it just jumping to eukaryotes? Is it mammals? Is it humans themselves, homo sapiens? The origin of intelligence or highly complex intelligence? Or is it all just a continuation of the same kind of process? Hmm. Certainly I would say it's an extremely remarkable story that I'm only like briefly learning about recently. All the way from, actually like you almost have to start at the formation of earth and all of its conditions and the entire solar system and how everything is arranged with Jupiter and moon and the habitable zone and everything. And then you have an active earth that's turning over material. And then you start with embryogenesis and everything. So it's all like a pretty remarkable story. I'm not sure that I can pick like a single unique piece of it that I find most interesting. I guess for me as an artificial intelligence researcher, it's probably the last piece. We have lots of animals that are not building technological society, but we do. And it seems to have happened very quickly. It seems to have happened very recently. And something very interesting happened there that I don't fully understand. I almost understand everything else kind of, I think intuitively, but I don't understand exactly that part and how quick it was. Both explanations would be interesting. One is that this is just a continuation of the same kind of process. There's nothing special about humans. That would be deeply understanding that would be very interesting. That we think of ourselves as special, but it was obvious. It was already written in the code that you would have greater and greater intelligence emerging. And then the other explanation, which is something truly special happened, something like a rare event, whether it's like crazy rare event, like a space odyssey. What would it be? See, if you say like the invention of fire or the, as Richard Rangham says, the beta males deciding a clever way to kill the alpha males by collaborating. And so just optimising the collaboration, the multi -agent aspect of the multi-agent and that really being constrained on resources and trying to survive the collaboration aspect",
+    "start_time": "00:07:44.660",
+    "end_time": "00:10:40.060",
+    "char_start": 7933,
+    "char_end": 10403,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 5,
+    "text": "rare event, like a space odyssey. What would it be? See, if you say like the invention of fire or the, as Richard Rangham says, the beta males deciding a clever way to kill the alpha males by collaborating. And so just optimising the collaboration, the multi -agent aspect of the multi-agent and that really being constrained on resources and trying to survive the collaboration aspect is what created the complex intelligence. But it seems like it's a natural outgrowth of the evolutionary process. Like what could possibly be a magical thing that happened, like a rare thing that would say that humans are actually, human level intelligence is actually a really rare thing in the universe. Yeah. I'm hesitant to say that it is rare by the way, but it definitely seems like it's kind of like a punctuated equilibrium where you have lots of exploration and then you have certain leaps, sparse leaps in between. So of course, like origin of life would be one, you know, DNA, sex, eukaryotic system, eukaryotic life, the endosymbiosis event where the Archeon ate little bacteria, you know, just the whole thing. And then of course, emergence of consciousness and so on. So it seems like definitely there are sparse events where massive amount of progress was made, but yeah, it's kind of hard to pick one. So you don't think humans are unique. Got to ask you, how many intelligent alien civilisations do you think are out there? And is their intelligence different or similar to ours? Yeah, I've been preoccupied with this question quite a bit recently. Basically the Fermi paradox and just thinking through. And the reason actually that I am very interested in the origin of life is fundamentally trying to understand how common it is that there are technological societies out there in space. And the more I study it, the more I think that there should be quite a few, quite a lot. Why haven't we heard from them? Because I agree with you. It feels like I just don't see why what we did here on Earth is so difficult to do. Especially when you get into the details of it. I used to think origin of life was very, it was this magical rare event. But then you read books like, for example, Nick Lane, The Vital Question, Life Ascending, etc. And he really gets in and he really makes you believe that this is not that rare.",
+    "start_time": "00:10:01.120",
+    "end_time": "00:12:33.760",
+    "char_start": 10018,
+    "char_end": 12339,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 501
+  },
+  {
+    "chunk_id": 6,
+    "text": "what we did here on Earth is so difficult to do. Especially when you get into the details of it. I used to think origin of life was very, it was this magical rare event. But then you read books like, for example, Nick Lane, The Vital Question, Life Ascending, etc. And he really gets in and he really makes you believe that this is not that rare. Basic chemistry. You have an active Earth and you have your alkaline vents and you have lots of alkaline waters mixing with the ocean and you have your proton gradients and you have little porous pockets of these alkaline vents that concentrate chemistry. And basically, as you step through all of these little pieces, you start to understand that actually this is not that crazy. You could see this happen on other systems. And he really takes you from just a geology to primitive life. And he makes it feel like it's actually pretty plausible. And also like the origin of life didn't, was actually fairly fast after formation of Earth. If I remember correctly, just a few hundred million years or something like that after basically when it was possible, life actually arose. And so that makes me feel like that is not the constraint, that is not the limiting variable and that life should actually be fairly common. And then where the drop-offs are is very interesting to think about. I currently think that there's no major drop -offs basically. And so there should be quite a lot of life. And basically where that brings me to then is the only way to reconcile the fact that we haven't found anyone and so on is that we just can't see them. We can't observe them. Just a quick brief comment. Nick Lane and a lot of biologists I talk to, they really seem to think that the jump from bacteria to more complex organisms is the hardest jump. The eukaryotic life, basically. Which I don't, I get it. They're much more knowledgeable than me about like the intricacies of biology. But that seems like crazy because how much, how many single cell organisms are there? Like and how much time you have, surely it's not that difficult. Like in a billion years, it's not even that long of a time really. Just all these bacteria under constrained resources battling it out. I'm sure they can invent more complex. I don't understand. It's like how to move from a hello world programme to like invent a function or",
+    "start_time": "00:12:02.640",
+    "end_time": "00:14:30.120",
+    "char_start": 11993,
+    "char_end": 14344,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 7,
+    "text": "single cell organisms are there? Like and how much time you have, surely it's not that difficult. Like in a billion years, it's not even that long of a time really. Just all these bacteria under constrained resources battling it out. I'm sure they can invent more complex. I don't understand. It's like how to move from a hello world programme to like invent a function or something like that. I don't, yeah. So I don't, yeah. So I'm with you. I just feel like I don't see any, if the origin of life, that would be my intuition, that's the hardest thing. But if that's not the hardest thing because it happens so quickly, then it's got to be everywhere. And yeah, maybe we're just too dumb to see it. Well, it's just, we don't have really good mechanisms for seeing this life. I mean, by what, how, so I'm not an expert just to preface this, but just from what I've been looking at it. I want to meet an expert on alien intelligence and how to communicate. I'm very suspicious of our ability to find these intelligences out there and to find these, or it's like radio waves, for example, are terrible. Their power drops off as basically one over R square. So I remember reading that our current radio waves would not be the ones that we are broadcasting would not be measurable by our devices today. Only like, was it like one 10th of a light year away? Like not even basically tiny distance, because you really need like a targeted transmission of massive power directed somewhere for this to be picked up on long distances. And so I just think that our ability to measure is not amazing. I think there's probably other civilisations out there. And then the big question is why don't they build binomial probes and why don't they interstellar travel across the entire galaxy? And my current answer is it's probably interstellar travel is like really hard. You have the interstellar medium. If you want to move at close to the speed of light, you're going to be encountering bullets along the way because even like tiny hydrogen atoms and little particles of dust are basically have like massive kinetic energy at those speeds. And so basically you need some kind of shielding. You need, you have all the cosmic radiation. It's just like brutal out there. It's really hard. And so",
+    "start_time": "00:14:02.840",
+    "end_time": "00:16:08.720",
+    "char_start": 13972,
+    "char_end": 16252,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 8,
+    "text": "If you want to move at close to the speed of light, you're going to be encountering bullets along the way because even like tiny hydrogen atoms and little particles of dust are basically have like massive kinetic energy at those speeds. And so basically you need some kind of shielding. You need, you have all the cosmic radiation. It's just like brutal out there. It's really hard. And so my thinking is maybe interstellar travel is just extremely hard. And you have to be very slow. Billions of years to build hard? It feels like we're not a billion years away from doing that. It just might be that it's very, you have to go very slowly potentially as an example through space. Right. As opposed to close to the speed of light. So I'm suspicious basically of our ability to measure life. And I'm suspicious of the ability to just permeate all of space in the galaxy or across galaxies. And that's the only way that I can currently see a way around it. Yeah. It's kind of mind blowing to think that there's trillions of intelligent alien civilisations out there kind of slowly travelling through space to meet each other. And some of them meet, some of them go to war, some of them collaborate. Or they're all just independent. They're all just like little pockets. Well, statistically, if there's trillions of them, surely some of them, some of the pockets are close enough together. Some of them happen to be close, yeah. Close enough to see each other. And then once you see something that is definitely complex life, like if we see something, we're probably going to be severely, intensely aggressively motivated to figure out what the hell that is and try to meet them. But what would be your first instinct to try at a generational level? Meet them or defend against them? Or what would be your instinct as a president of the United States and a scientist? I don't know which hat you prefer in this question. Yeah, I think the question, it's really hard. I will say, for example, for us, we have lots of primitive life forms on Earth next to us. We have all kinds of ants and everything else, and we share a space with them. And we are hesitant to impact on them. And we're trying to protect them by default because they are amazing, interesting, dynamical systems that took a long time to evolve, and they are",
+    "start_time": "00:15:46.900",
+    "end_time": "00:18:08.840",
+    "char_start": 15863,
+    "char_end": 18181,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 9,
+    "text": "I will say, for example, for us, we have lots of primitive life forms on Earth next to us. We have all kinds of ants and everything else, and we share a space with them. And we are hesitant to impact on them. And we're trying to protect them by default because they are amazing, interesting, dynamical systems that took a long time to evolve, and they are interesting and special. And I don't know that you want to destroy that by default. And so I like complex, dynamical systems that took a lot of time to evolve. I think I'd like to preserve it if I can afford to. And I'd like to think that the same would be true about the galactic resources, and that they would think that we're kind of incredible, interesting story that took time. It took a few billion years to unravel, and you don't want to just destroy it. I could see two aliens talking about Earth right now and saying, I'm a big fan of complex, dynamical systems. So I think it was a value to preserve these and who basically are a video game they watch or show a TV show that they watch. Yeah, I think you would need a very good reason, I think, to destroy it. Why don't we destroy these ant farms and so on? It's because we're not actually really in direct competition with them right now. We do it accidentally and so on. But there's plenty of resources. And so why would you destroy something that is so interesting and precious? Well, from a scientific perspective, you might probe it. You might interact with it. Exactly. You might want to learn something from it. So I wonder, there could be certain physical phenomena that we think is a physical phenomena, but it's actually interacting with us to poke the finger and see what happens. I think it should be very interesting to scientists, other alien scientists, what happened here. And what we're seeing today is a snapshot. Basically, it's a result of a huge amount of computation over a billion years or something like that. It could have been initiated by aliens. This could be a computer running a programme. Okay, if you had the power to do this, for sure, at least I would, I would pick an Earth-like planet that has the conditions, based on my understanding of the chemistry prerequisites for life, and I would seed it with life and run it, right? Wouldn't",
+    "start_time": "00:17:40.340",
+    "end_time": "00:20:13.960",
+    "char_start": 17826,
+    "char_end": 20112,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 10,
+    "text": "years or something like that. It could have been initiated by aliens. This could be a computer running a programme. Okay, if you had the power to do this, for sure, at least I would, I would pick an Earth-like planet that has the conditions, based on my understanding of the chemistry prerequisites for life, and I would seed it with life and run it, right? Wouldn't you 100% do that and observe it and then protect? I mean, that's not just a hell of a good TV show. It's a good scientific experiment. And it's physical simulation, right? Maybe evolution is the most, actually running it is the most efficient way to understand computation or to compute stuff. Or to understand life or what life looks like and what branches it can take. It does make me kind of feel weird that we're part of a science experiment, but maybe it's everything is a science experiment. Does that change anything for us, for a science experiment? I don't know. Two descendants of apes talking about being inside of a science experiment. I'm suspicious of this idea of like a deliberate panspermia, as you described it, and I don't see a divine intervention in some way in the historical record right now. I do feel like the story in these books, like Nick Lane's books and so on, sort of makes sense, and it makes sense how life arose on earth uniquely. And yeah, I don't need to reach for more exotic explanations right now. Sure, but NPCs inside a video game don't observe any divine intervention either. We might just be all NPCs running a kind of code. Maybe eventually they will. Currently, NPCs are really dumb, but once they're running GPTs, maybe they will be like, hey, this is really suspicious. What the hell? So you famously tweeted, it looks like if you bombard earth with photons for a while, you can emit a roadster. So if like in Hitchhiker's Guide to the Galaxy, we would summarise the story of earth. So in that book, it's mostly harmless. What do you think is all the possible stories, like a paragraph long or a sentence long, that earth could be summarised as? Once it's done, it's computation. So like all the possible full... If earth is a book, right? Yeah. Probably there has to be an ending. I mean, there's going to be an",
+    "start_time": "00:19:29.160",
+    "end_time": "00:22:07.720",
+    "char_start": 19746,
+    "char_end": 21972,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 11,
+    "text": "So in that book, it's mostly harmless. What do you think is all the possible stories, like a paragraph long or a sentence long, that earth could be summarised as? Once it's done, it's computation. So like all the possible full... If earth is a book, right? Yeah. Probably there has to be an ending. I mean, there's going to be an end to earth, and it could end in all kinds of ways. It can end soon, it can end later. What do you think are the possible stories? Well, definitely there seems to be... Yeah, you're sort of... It's pretty incredible that these self-replicating systems will basically arise from the dynamics, and then they perpetuate themselves and become more complex, and eventually become conscious and build a society. And I kind of feel like in some sense, it's kind of like a deterministic wave that kind of just like happens on any sufficiently well-arranged system like earth. And so I kind of feel like there's a certain sense of inevitability in it, and it's really beautiful. And it ends somehow, right? So it's a chemically diverse environment where complex dynamical systems can evolve and become more further and further complex, but then there's a certain... What is it? There's certain terminating conditions. Yeah, I don't know what the terminating conditions are, but definitely there's a trend line of something, and we're part of that story. And where does it go? So we're famously described often as a biological bootloader for AIs, and that's because humans... We're an incredible biological system, and we're capable of computation and love and so on, but we're extremely inefficient as well. We're talking to each other through audio. It's just kind of embarrassing, honestly, that we're manipulating seven symbols serially. We're using vocal cords. It's all happening over multiple seconds. It's just kind of embarrassing when you step down to the frequencies at which computers operate or are able to operate on. And so basically, it does seem like synthetic intelligences are kind of like the next stage of development. And I don't know where it leads to. At some point, I suspect the universe is some kind of a puzzle, and these synthetic AIs will uncover that puzzle and solve it. And then what happens after, right? Because if you just fast-forward Earth many billions of years,",
+    "start_time": "00:21:36.440",
+    "end_time": "00:24:11.540",
+    "char_start": 21643,
+    "char_end": 23965,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 501
+  },
+  {
+    "chunk_id": 12,
+    "text": "on. And so basically, it does seem like synthetic intelligences are kind of like the next stage of development. And I don't know where it leads to. At some point, I suspect the universe is some kind of a puzzle, and these synthetic AIs will uncover that puzzle and solve it. And then what happens after, right? Because if you just fast-forward Earth many billions of years, it's quiet, and then it's like normal. You see city lights and stuff like that. And then what happens at the end? Is it like a poof? Or is it like a calming? Is it explosion? Is it like Earth opened like a giant... Because you said emit roasters. Will it start emitting like a giant number of satellites? Yes, it's some kind of a crazy explosion. And we're stepping through a explosion, and we're living day-to-day, and it doesn't look like it. But it's actually... I saw a very cool animation of Earth and life on Earth, and basically nothing happens for a long time. And then the last two seconds, basically cities and everything, and the lower orbit just gets cluttered. And just the whole thing happens in the last two seconds, and you're like, this is exploding. This is a statement explosion. So if you play... Yeah, yeah. If you play at a normal speed, it'll just look like an explosion. It's a firecracker. We're living in a firecracker. Where it's going to start emitting all kinds of interesting things. And then... So explosion doesn't... It might actually look like a little explosion with lights and fire and energy emitted, all that kind of stuff. But when you look inside the details of the explosion, there's actual complexity happening, where there's like... Yeah, human life or some kind of life. We hope it's not a destructive firecracker. It's kind of like a constructive firecracker. All right. So given that, I think... Hilarious discussion. It is really interesting to think about what the puzzle of the universe is. Did the creator of the universe give us a message? Like, for example, in the book Contact, Carl Sagan, there's a message for any civilisation in digits, in the expansion of pi in base 11, eventually. Which is kind of interesting thought. Maybe we're supposed to be giving a message to our creator.",
+    "start_time": "00:23:46.300",
+    "end_time": "00:26:03.620",
+    "char_start": 23592,
+    "char_end": 25803,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 13,
+    "text": "interesting to think about what the puzzle of the universe is. Did the creator of the universe give us a message? Like, for example, in the book Contact, Carl Sagan, there's a message for any civilisation in digits, in the expansion of pi in base 11, eventually. Which is kind of interesting thought. Maybe we're supposed to be giving a message to our creator. Maybe we're supposed to somehow create some kind of a quantum mechanical system that alerts them to our intelligent presence here. Because if you think about it from their perspective, it's just, say, quantum field theory, massive cellular automaton-like thing. And how do you even notice that we exist? You might not even be able to pick us up in that simulation. And so how do you prove that you exist? That you're intelligent and that you're a part of the universe? So this is like a Turing test for intelligence from Earth? Yes. The creator is... I mean, maybe this is like trying to complete the next word in a sentence. This is a complicated way of that. Like Earth is basically sending a message back. Yeah, the puzzle is basically like alerting the creator that we exist. Or maybe the puzzle is just to just break out of the system and just stick it to the creator in some way. Basically, if you're playing a video game, you can somehow find an exploit and find a way to execute on the host machine any arbitrary code. For example, I believe someone got a game of Mario to play Pong just by exploiting it and then basically writing code and being able to execute arbitrary code in the game. And so maybe we should be... maybe that's the puzzle, is that we should be... find a way to exploit it. So I think like some of these synthetic AIs will eventually find the universe to be some kind of a puzzle and then solve it in some way. And that's kind of like the end game somehow. Do you often think about it as a simulation? So as the universe being a kind of computation that might have bugs and exploits? Yes. Yeah, I think so. Is that what physics is essentially? I think it's possible that physics has exploits and we should be trying to find them. Arranging some kind of a crazy quantum mechanical system that somehow gives you buffer overflow, somehow gives you a rounding error in the floating point. Yeah, that's right. And more and more sophisticated exploits.",
+    "start_time": "00:25:36.200",
+    "end_time": "00:27:58.920",
+    "char_start": 25443,
+    "char_end": 27779,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 501
+  },
+  {
+    "chunk_id": 14,
+    "text": "might have bugs and exploits? Yes. Yeah, I think so. Is that what physics is essentially? I think it's possible that physics has exploits and we should be trying to find them. Arranging some kind of a crazy quantum mechanical system that somehow gives you buffer overflow, somehow gives you a rounding error in the floating point. Yeah, that's right. And more and more sophisticated exploits. Those are jokes, but that could be actually very close to reality. We'll find some way to extract infinite energy. For example, when you train reinforcement learning agents in physical simulations and you ask them to, say, run quickly on the flat ground, they'll end up doing all kinds of weird things in part of that optimisation. They'll get on their back leg and they'll slide across the floor. And it's because the optimisation, the reinforcement learning optimisation on that agent has figured out a way to extract infinite energy from the friction forces and basically their poor implementation. And they found a way to generate infinite energy and just slide across the surface. And it's not what you expected. It's just sort of like a perverse solution. And so maybe we can find something like that. Maybe we can be that little dog in this physical simulation. That cracks or escapes the intended consequences of the physics that the universe came up with. Yeah. We'll figure out some kind of shortcut to some weirdness. Yeah. And then, oh man. But see, the problem with that weirdness is the first person to discover the weirdness, like sliding on the back legs, that's all we're going to do. Yeah. It's very quickly because everybody does that thing. So the paperclip maximiser is a ridiculous idea, but that very well could be what then we'll just all switch that because it's so fun. Well, no person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:27:34.820",
+    "end_time": "00:29:37.700",
+    "char_start": 27387,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 447
+  },
+  {
+    "chunk_id": 15,
+    "text": "it's so fun. Well, no person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:09.560",
+    "end_time": "00:29:37.700",
+    "char_start": 29163,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 80
+  },
+  {
+    "chunk_id": 16,
+    "text": "so fun. Well, no person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:09.560",
+    "end_time": "00:29:37.700",
+    "char_start": 29168,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 78
+  },
+  {
+    "chunk_id": 17,
+    "text": "fun. Well, no person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:09.560",
+    "end_time": "00:29:37.700",
+    "char_start": 29171,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 77
+  },
+  {
+    "chunk_id": 18,
+    "text": "Well, no person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:09.560",
+    "end_time": "00:29:37.700",
+    "char_start": 29176,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 75
+  },
+  {
+    "chunk_id": 19,
+    "text": "no person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:12.020",
+    "end_time": "00:29:37.700",
+    "char_start": 29182,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 73
+  },
+  {
+    "chunk_id": 20,
+    "text": "person will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:12.020",
+    "end_time": "00:29:37.700",
+    "char_start": 29185,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 72
+  },
+  {
+    "chunk_id": 21,
+    "text": "will discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:12.220",
+    "end_time": "00:29:37.700",
+    "char_start": 29192,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 71
+  },
+  {
+    "chunk_id": 22,
+    "text": "discover it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:12.220",
+    "end_time": "00:29:37.700",
+    "char_start": 29197,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 70
+  },
+  {
+    "chunk_id": 23,
+    "text": "it, I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:12.220",
+    "end_time": "00:29:37.700",
+    "char_start": 29206,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 69
+  },
+  {
+    "chunk_id": 24,
+    "text": "I think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29210,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 67
+  },
+  {
+    "chunk_id": 25,
+    "text": "think, by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29212,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 66
+  },
+  {
+    "chunk_id": 26,
+    "text": "by the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29219,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 64
+  },
+  {
+    "chunk_id": 27,
+    "text": "the way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29222,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 63
+  },
+  {
+    "chunk_id": 28,
+    "text": "way. I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29226,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 62
+  },
+  {
+    "chunk_id": 29,
+    "text": "I think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29231,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 60
+  },
+  {
+    "chunk_id": 30,
+    "text": "think it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29233,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 59
+  },
+  {
+    "chunk_id": 31,
+    "text": "it's going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29239,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 58
+  },
+  {
+    "chunk_id": 32,
+    "text": "going to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29244,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 56
+  },
+  {
+    "chunk_id": 33,
+    "text": "to have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29250,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 55
+  },
+  {
+    "chunk_id": 34,
+    "text": "have to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29253,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 54
+  },
+  {
+    "chunk_id": 35,
+    "text": "to be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29258,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 53
+  },
+  {
+    "chunk_id": 36,
+    "text": "be some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29261,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 52
+  },
+  {
+    "chunk_id": 37,
+    "text": "some kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29264,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 51
+  },
+  {
+    "chunk_id": 38,
+    "text": "kind of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29269,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 50
+  },
+  {
+    "chunk_id": 39,
+    "text": "of a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29274,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 49
+  },
+  {
+    "chunk_id": 40,
+    "text": "a super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29277,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 48
+  },
+  {
+    "chunk_id": 41,
+    "text": "super intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29279,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 47
+  },
+  {
+    "chunk_id": 42,
+    "text": "intelligent AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29285,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 47
+  },
+  {
+    "chunk_id": 43,
+    "text": "AGI of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29297,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 45
+  },
+  {
+    "chunk_id": 44,
+    "text": "of a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29301,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 43
+  },
+  {
+    "chunk_id": 45,
+    "text": "a third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29304,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 42
+  },
+  {
+    "chunk_id": 46,
+    "text": "third generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29306,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 41
+  },
+  {
+    "chunk_id": 47,
+    "text": "generation. Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29312,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 40
+  },
+  {
+    "chunk_id": 48,
+    "text": "Like we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29324,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 38
+  },
+  {
+    "chunk_id": 49,
+    "text": "we're building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29329,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 37
+  },
+  {
+    "chunk_id": 50,
+    "text": "building the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29335,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 35
+  },
+  {
+    "chunk_id": 51,
+    "text": "the first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29344,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 34
+  },
+  {
+    "chunk_id": 52,
+    "text": "first generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29348,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 33
+  },
+  {
+    "chunk_id": 53,
+    "text": "generation AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:13.160",
+    "end_time": "00:29:37.700",
+    "char_start": 29354,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 32
+  },
+  {
+    "chunk_id": 54,
+    "text": "AGI. I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29365,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 31
+  },
+  {
+    "chunk_id": 55,
+    "text": "I mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29370,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 28
+  },
+  {
+    "chunk_id": 56,
+    "text": "mean, you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29372,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 27
+  },
+  {
+    "chunk_id": 57,
+    "text": "you know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29378,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 25
+  },
+  {
+    "chunk_id": 58,
+    "text": "know. Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29382,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 24
+  },
+  {
+    "chunk_id": 59,
+    "text": "Third generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29388,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 22
+  },
+  {
+    "chunk_id": 60,
+    "text": "generation. Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29394,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 21
+  },
+  {
+    "chunk_id": 61,
+    "text": "Yeah. So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29406,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 19
+  },
+  {
+    "chunk_id": 62,
+    "text": "So the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29412,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 17
+  },
+  {
+    "chunk_id": 63,
+    "text": "the bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:22.800",
+    "end_time": "00:29:37.700",
+    "char_start": 29415,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 16
+  },
+  {
+    "chunk_id": 64,
+    "text": "bootloader for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29419,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 16
+  },
+  {
+    "chunk_id": 65,
+    "text": "for an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29430,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 14
+  },
+  {
+    "chunk_id": 66,
+    "text": "an AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29434,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 13
+  },
+  {
+    "chunk_id": 67,
+    "text": "AI, that AI will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29437,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 12
+  },
+  {
+    "chunk_id": 68,
+    "text": "that AI will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29441,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 10
+  },
+  {
+    "chunk_id": 69,
+    "text": "AI will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29446,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 9
+  },
+  {
+    "chunk_id": 70,
+    "text": "will be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29449,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 8
+  },
+  {
+    "chunk_id": 71,
+    "text": "be a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29454,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 7
+  },
+  {
+    "chunk_id": 72,
+    "text": "a bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29457,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 6
+  },
+  {
+    "chunk_id": 73,
+    "text": "bootloader for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29459,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 6
+  },
+  {
+    "chunk_id": 74,
+    "text": "for another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29470,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 4
+  },
+  {
+    "chunk_id": 75,
+    "text": "another AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29474,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 3
+  },
+  {
+    "chunk_id": 76,
+    "text": "AI.",
+    "start_time": "00:29:26.880",
+    "end_time": "00:29:37.700",
+    "char_start": 29482,
+    "char_end": 29485,
+    "source": "2f1b39b093b84966861f69a3e6325358_Andrej Karpathy_ Tesla AI, Self-Driving, Optimus, Aliens, and AGI _ Lex Fridman Podcast #333",
+    "token_count": 2
+  }
+]

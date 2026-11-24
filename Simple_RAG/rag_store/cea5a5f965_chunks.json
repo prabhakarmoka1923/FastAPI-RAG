@@ -1,0 +1,832 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "The following is a conversation with Elon Musk his third time on this the Lex Friedman podcast Yeah, make yourself comfortable. Oh, no. Wow. Okay No, okay, I mean how close do I get me to give the thing the closer you are the sexier you sound hey, babe Yeah, can't get enough of the oil Clip that out Any time somebody messaged me by you what's my body and you think I'm sexy come right out and tell me so So good, okay serious mode activate. All right Serious mode. Come on, you're Russian. You can be serious. Yeah, everyone's serious all the time in Russia. Yeah We'll get there we'll get there. Yeah, it's gotten soft Allow me to say that the SpaceX launch of human beings to orbit on May 30th, 2020 Was seen by many as the first step in a new era of human space exploration These human spaceflight missions were a beacon of hope to me and to millions over the past two years as our world has been going Through one of the most difficult periods in recent human history We saw we see the rise of division fear cynicism and the loss of common humanity Right when it is needed most so first Elon let me say thank you for giving the world hope and reason to be excited about the future Oh, it's kind of you to say I do want to do that. Humanity has obviously a lot of issues and and You know people at times do do bad things, but you know, despite all that You know, I I love humanity and I think we should I Make sure we do everything we can to have a good future and an exciting future and one where that maximises the happiness of the people Let me ask about crew dragon demo to so that that first flight with humans on board How did you feel leading up to that launch? We scared you excited was going through your mind so much was at stake Yeah, no, that was extremely stressful. No question. We obviously could not Let them down in any way so Extremely stressful I'd say to say the least But we did I was confident that at the time that we launched that No one could think of anything At all to do that would improve the probability of success And we we racked our brains to think of any possible way to improve the probability of success we could not think of anything more and and nor could NASA and so Then that that's just the best that we could do. So then we we",
+    "start_time": "00:00:00.190",
+    "end_time": "00:00:08.170",
+    "char_start": 0,
+    "char_end": 2273,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 1,
+    "text": "least But we did I was confident that at the time that we launched that No one could think of anything At all to do that would improve the probability of success And we we racked our brains to think of any possible way to improve the probability of success we could not think of anything more and and nor could NASA and so Then that that's just the best that we could do. So then we we had We went ahead and launched Now, I'm not a religious person But I nonetheless got on my knees and prayed for that mission We able to sleep No How did it feel? When it was a success first when the launch was a success and when they returned back home or back to earth There's a great relief. Yeah It's for high-stress situations. I find it's not so much elation as relief and You know, I think once as we got more comfortable and proved out the systems because you know, we really You know, you gotta make sure everything works I was it was definitely a lot more enjoyable with the subsequent astronaut missions and I thought the The inspiration mission was was actually very inspiring Inspiration for mission. I don't think I'd encourage people to watch the inspiration documentary on Netflix. It's actually really good and it really isn't so I was actually inspired by that and I So that one I felt I was Kind of able to enjoy the the actual mission and not just be super stressed all the time So for people that somehow don't know it's the all-civilian first time all -civilian out to space out to orbit Yeah, it was the I think the highest Orbit that in like I know 30 or 40 years or something. The only one that was higher Was the one shuttle sorry a Hubble servicing mission And then before that it would have been Apollo in 72 pretty wild. So it's cool. It's good. You know, I think You know as a species like we want to be, you know continuing to do better and reach higher ground and and like I think it would be tragic extremely tragic if Apollo was the high -water mark for humanity, you know, and that then that's as far as we ever got and it's It's concerning that here we are 49 years after the last mission to the moon and So it was half a century And we've not been back And that's that's worrying. It's like is that does that mean we've peaked as a civilisation or what? So Like I",
+    "start_time": "00:02:17.050",
+    "end_time": "00:05:20.830",
+    "char_start": 1888,
+    "char_end": 4173,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 2,
+    "text": "-water mark for humanity, you know, and that then that's as far as we ever got and it's It's concerning that here we are 49 years after the last mission to the moon and So it was half a century And we've not been back And that's that's worrying. It's like is that does that mean we've peaked as a civilisation or what? So Like I think we got to get back to the moon and build a base there, you know a science base I think we could learn a lot about the nature of the universe if we have a proper science base on the moon you know, like we have a science base in Antarctica and you know many other parts of the world and So that that that's like I think the next big thing we've got to have like a serious like moon base and then get people to Mars and You know get get out there and be a space-faring civilisation I'll ask you about some of those details But since you're so busy with the hard engineering challenges of everything that's involved Are you still able to marvel at the magic of it all of space travel of every time the rocket goes up? Especially when it's a crude mission are you just so overwhelmed with the all the challenges that you have to solve and Actually sort of to add to that The reason I want to ask this question of May 30th It's it's been some time so you can look back and think about the impact already It's already at the time. It was an engineering problem Maybe now it's becoming a historic moment Like it's a moment that how many moments will be remembered about the 21st century to me That or something like that Maybe inspiration for one of those would be remembered as the early steps of a new age of space exploration Yeah, I mean during the launches itself So, I mean the thing I think maybe some people know but a lot of people don't know is like I'm actually the chief engineer of SpaceX. So The you know that I've signed off on pretty much all the design decisions and you know, so if there's something that goes wrong with that a Vehicle, it's it's fundamentally my fault, you know, so So I'm really just thinking About all the things that like so so when I see the rocket I see all the things that could go wrong and the things that could be better and the same with the Dragon spacecraft It's like other people see oh, this is a spacecraft",
+    "start_time": "00:04:40.230",
+    "end_time": "00:07:31.110",
+    "char_start": 3845,
+    "char_end": 6129,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 3,
+    "text": "know, so if there's something that goes wrong with that a Vehicle, it's it's fundamentally my fault, you know, so So I'm really just thinking About all the things that like so so when I see the rocket I see all the things that could go wrong and the things that could be better and the same with the Dragon spacecraft It's like other people see oh, this is a spacecraft or a rocket and that's what's really cool I'm like, I've like a readout of like this is that these these are the risks. These are the problems. That's what I see Not what other people see when they see the product, you know So let me ask you then to analyse Starship in that same way I know you have you'll talk about in more detail about Starship in the near future perhaps Yeah, I don't know if you want but just in that same way like you said you see when you see up When you see a rocket you see a sort of a list of risks in that same way You said that Starship is a really hard problem So there's many ways I can ask this If you magically could solve one problem perfectly one engineering problem perfectly, which one would it be Sasha I'm sorry on Starship. So is it maybe related to the efficiency the The engine the weight of the different components the complexity of various things Maybe the controls of the the crazy thing has to do to land no, it's actually the by far the the biggest thing absorbing my time is a engine production And I'm not the design of the engine, but I thought I've often said prototypes are Easy production is hard So we have the most advanced rocket engine that's ever been designed The because I say currently the the best rocket engine ever is probably the RD 181 or RD 170 That that's the door washing engine basically And still I think an engine should only count if it's gotten something to orbit So our engine has not gotten anything to orbit yet But it is it's the first engine. That's actually better than the Russian RD engines which were amazing design So you're talking about Raptor engine what makes it amazing? What are the different aspects of it that? Make it like what are you the most excited about if the whole thing works? in terms of efficiency all those kinds of things Well, it's the Raptor is a a full flow staged combustion Engine and it's Operating at a very high chamber pressure. So one of the key",
+    "start_time": "00:06:52.290",
+    "end_time": "00:09:49.930",
+    "char_start": 5760,
+    "char_end": 8091,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 4,
+    "text": "amazing design So you're talking about Raptor engine what makes it amazing? What are the different aspects of it that? Make it like what are you the most excited about if the whole thing works? in terms of efficiency all those kinds of things Well, it's the Raptor is a a full flow staged combustion Engine and it's Operating at a very high chamber pressure. So one of the key figures of merit perhaps the key figure of merit is What is the chamber pressure at which the rocket engine can operate that's the combustion chamber pressure So Raptor is Designed to operate at 300 bar possibly maybe higher. That's 300 atmospheres. So The record right now for operational engine is the RD engine that I mentioned the Russian RD which is I believe around 267 bar and the the difficulty of the chamber pressure is increases on a nonlinear basis, so 10% more chamber pressure is more like 50% more difficult But that that chamber pressure is that that is what allows you to get a very high power density for the engine so enabling a very high thrust to weight ratio and a very high specific impulse So specific impulse is like a measure of the efficiency of a rocket engine or it's really the the Exhaust the effective exhaust velocity of the gas coming out of the engine So With it with a very high chamber pressure you can have a Compact engine that nonetheless has a high expansion ratio, which is the ratio between the Exit nozzle and the Throat so, you know engines got like you see rocket engines got like sort of like a pet like a hourglass shape it's like a chamber and then it next down and there's a nozzle and the ratio of the the exit diameter to the the throat Expansion ratio. So why is it such a hard engine to manufacture at scale? It's very complex So a lot of what is complexity mean here's a lot of components involved there's a lot of a lot of components and a lot of Unique materials that so we had to invent a Several alloys that don't exist in order to make this engine work Materials problem, too so a materials problem and It is in a staged combustion the full flow stage combustion. There are there are many feedback loops in the system, so Basically you've got Propellants and and and hot gas flowing Simultaneously to so many different places on the engine and They all have a recursive effect on each other so you change one thing here it has a recursive effect here changes something over there And and it's it's",
+    "start_time": "00:09:14.690",
+    "end_time": "00:13:53.070",
+    "char_start": 7715,
+    "char_end": 10149,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 501
+  },
+  {
+    "chunk_id": 5,
+    "text": "It is in a staged combustion the full flow stage combustion. There are there are many feedback loops in the system, so Basically you've got Propellants and and and hot gas flowing Simultaneously to so many different places on the engine and They all have a recursive effect on each other so you change one thing here it has a recursive effect here changes something over there And and it's it's it's quite hard to control Like there's a reason no one's made this before But And the reason we're doing a stage combustion Full flow is because it has the highest of the highest theoretical possible efficiency So in in order to make a fully reusable rocket Which that that's the really the holy grail of orbital rocketry You have to have everything's got to be the best it's got to be the best engine the best airframe the best heat shield Extremely light avionics But you know very clever control mechanisms You've got to shed mass in any possible way that you can for example Instead of putting landing legs on the booster and ship We are going to catch them with a tower to save the weight of the landing lads legs. So that's like I mean We're talking about catching the largest flying object ever made With on a giant tower with with chopstick arms, it's like karate kid with the fly but much bigger I Mean pulling this probably won't work the first time In areas bananas banana stuff, so you mentioned that you doubt well not you doubt but there There's days or moments when you doubt that this is even possible. It's so difficult the possible part is Well at this point Will I think we will get Starship to work? Um, there's a question of timing how long will it take us to do this? How long will it take us to actually achieve full and rapid reusability? Because it will take probably many launches before we are able to have full and rapid reusability But I can't say that that the physics pencils out like like we're not Like At this point I'd say we're confident they would that sick like let's say I'm very confident success is in the set of all possible outcomes For a while there I was not convinced that success was in the set of possible outcomes Which is a very important actually, but so we were Saying there's a chance I'm saying there's a chance exactly Just not sure how how how long it will take We're a very very talented team. They're working night and day",
+    "start_time": "00:11:51.070",
+    "end_time": "00:15:39.530",
+    "char_start": 9755,
+    "char_end": 12131,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 6,
+    "text": "let's say I'm very confident success is in the set of all possible outcomes For a while there I was not convinced that success was in the set of possible outcomes Which is a very important actually, but so we were Saying there's a chance I'm saying there's a chance exactly Just not sure how how how long it will take We're a very very talented team. They're working night and day to make it happen and Like I said the critical thing to achieve for the revolution in spaceflight and for humanity to be a space-faring civilisation is to have a fully and rapidly reusable rocket orbital rocket There's not even been any over rocket. That's been fully usable ever and this has always been the The the holy grail of rocketry and Many smart people very smart people have tried to do this before and they've not succeeded. So Because it's such a hard problem What's your source of belief in? Situations like this when the engineering problem is so difficult. There's a lot of experts Many of whom you admire who have failed in the past. Yes, and a Lot of people You know the a lot of experts maybe journalists all the kind of you know the public in general have a lot of doubt about whether it's possible and You yourself know that even if it's a non null set non empty set of success It's still unlikely or very difficult. Like where do you go to both personally? Intellectually as an engineer as a team Like for source of strength needed to sort of persevere through this and To add keep going with the project take it to completion It's also strength. Hmm. I just really not how I think about things I Mean for me, it's simply this this is something that is important to get done and We we should just keep doing it Or die trying and I I don't need That's also strength. So quitting is not even like That's not it's not in my nature, okay, and I don't care about optimism or pessimism Fuck that we're gonna get it done gonna get it done Can you then zoom back in to specific problems with Starship or any engineering problems you work on? Can you try to introspect your particular biological neural network your thinking process and describe how you think? Through problems the different engineering and design problems. Is there like a Systematic process you've spoken about first principles thinking. Yeah, they're kind of process to it. Well You know like saying like like physics is",
+    "start_time": "00:14:50.010",
+    "end_time": "00:18:13.690",
+    "char_start": 11751,
+    "char_end": 14134,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 7,
+    "text": "zoom back in to specific problems with Starship or any engineering problems you work on? Can you try to introspect your particular biological neural network your thinking process and describe how you think? Through problems the different engineering and design problems. Is there like a Systematic process you've spoken about first principles thinking. Yeah, they're kind of process to it. Well You know like saying like like physics is law and everything else was a recommendation Like I've met a lot of people who can break the law, but I haven't met anyone who could break physics so so first for you know, any kind of Technology problem you have to sort of just make sure you're not Violating physics and You know first principles analysis, I think is something that can be applied to Really any walk of life any anything really? It's just it's it's really just saying You know, let's let's boil something down to the most fundamental Principles the things that we are most confident are true at a foundational level and that's just you're at your sets your axiomatic base And then you reason up from there and then you cross-check your conclusion against the the axiomatic truths So You know some basics in physics would be like are you buying conservation of energy or momentum or something like that, you know Then you're not gonna work So That's You know, so that's just to establish. Is it is it possible? And then another good physics tool is thinking about things in the limit if you if you take a particular thing and you Scale it to a very large number or to a very small number. How does how do things change? Both like temper like in number of things you manufacture something like that and then in time yeah, like let's say take example of like Like manufacturing which I think is just a very underrated problem and and Like said, it's it's much harder to Take An advanced technology product and bring it into volume manufacturing than it is to design it in the first place my orders magnitude. So So let's say you're trying to figure out is like why is this this a part or product expensive is it Because of something fundamentally foolish that we're doing or is it because our volume is too low? And so then you say okay. Well, what if our volume was a million units a year? Is it still expensive? That's what I mean by thinking about things in the limit If it's still expensive at a million units a year then volume is not the",
+    "start_time": "00:17:35.820",
+    "end_time": "00:21:11.780",
+    "char_start": 13698,
+    "char_end": 16143,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 8,
+    "text": "this a part or product expensive is it Because of something fundamentally foolish that we're doing or is it because our volume is too low? And so then you say okay. Well, what if our volume was a million units a year? Is it still expensive? That's what I mean by thinking about things in the limit If it's still expensive at a million units a year then volume is not the reason why your thing is expensive There's something fundamental about design and then you then can focus on the reducing complexity or something like that in the design to change the part to be something that is Not fundamentally expensive But like that's a common thing in rocketry because the the unit volume is is relatively low and so a common excuse would be Well, it's expensive because our unit volume is low And if we were in like automotive or something like that or consumer electronics, then our costs would be lower I'm like, I'm like, okay. So let's say we skip now. You're making a million units a year. Is it still expensive? The answer is yes then Economies of scale are not the issue Do you throw Into manufacturing you throw like supply chain talk about resources and materials and stuff like that Do you throw that into the calculation of trying to reason from first principles like how we're gonna make the supply chain work here Yeah, yeah, and then the cost of materials things like that or is that much exactly so like another like a good example, I think of thinking about things in the limit is If you take any You know any Product a machine or whatever like take a rocket or whatever and say If you've got if you look at the room raw materials in the rocket so you're gonna have like an aluminium steel titanium Inconel special speciality alloys Copper and and you say what are the What what's the weight of the constituent elements of each of these elements and what is their raw material value and that sets the asymptotic limit for how Low the cost of the vehicle can be unless you change the materials So and then when you do that, I call it like maybe the magic wand number or something like that so that would be like if you had the You know Like just a pile of these raw materials here and you could wave the magic wand and rearrange the atoms into the final shape That would be the lowest possible cost that you could make this thing for unless you change the materials So then and that is always a usually almost always a very low number So then the",
+    "start_time": "00:19:45.700",
+    "end_time": "00:23:46.190",
+    "char_start": 15773,
+    "char_end": 18229,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 9,
+    "text": "the magic wand number or something like that so that would be like if you had the You know Like just a pile of these raw materials here and you could wave the magic wand and rearrange the atoms into the final shape That would be the lowest possible cost that you could make this thing for unless you change the materials So then and that is always a usually almost always a very low number So then the what's actually causing these to be expensive is how you put the atoms into the desired shape Yeah, actually if you don't mind me taking a tiny tangent had uh, I often talk to Jim Keller who's somebody that work with you So yes, Jim was uh, yeah did great work at Tesla So, um, I suppose he carries the flame of the same kind of thinking that you're you're talking about now And I guess I see that same thing at Tesla and and SpaceX folks who work there they kind of learn this way of thinking and it kind of becomes obvious almost but anyway, I had argument not argument He educated me about How cheap it might be to manufacture a Tesla bot. We just we had an argument What is how can you reduce the cost of the scale of producing a robot because so I've gotten a chance to interact quite a bit Obviously in the academic circles with humanoid robots and then my Boston Dynamics and stuff like that and then they're very expensive to build and then Jim kind of schooled me on saying like, okay like this kind of first principles thinking of how can we get the cost of manufacture now? I suppose you do that you have done that kind of thinking for Tesla bot and for all kinds of All kinds of complex systems that are traditionally seen as complex and you say, okay, how can we simplify everything now? Yeah, I mean, I think if you are really good at manufacturing You can basically Make at high volume. You could basically make anything for a cost that Asymptotically approaches the room of raw material value of the constituents plus any intellectual property that you need to do licence anything But it's hard it's not like that's a very hard thing to do but but it is possible for anything Anything in volume can be made Like I said for a cost that asymptotically approaches this raw material constituents plus intellectual property licence, right? so what will often happen in trying to design a product is people will start with the tools and and parts and methods that they are familiar with And then and try to create a product using their existing tools",
+    "start_time": "00:21:15.960",
+    "end_time": "00:25:32.770",
+    "char_start": 17828,
+    "char_end": 20290,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 10,
+    "text": "very hard thing to do but but it is possible for anything Anything in volume can be made Like I said for a cost that asymptotically approaches this raw material constituents plus intellectual property licence, right? so what will often happen in trying to design a product is people will start with the tools and and parts and methods that they are familiar with And then and try to create a product using their existing tools and methods the other way to think about it is Actually, imagine the try to imagine the platonic ideal of the perfect product or technology, whatever it might be And so what is this? What is the perfect arrangement of atoms? That would be the best possible product and now let us try to figure out how to get the atoms in that shape I Mean it sounds It's almost like Rick and Morty absurd until you start to really think about it and you really should think about it in this way because everything else is kind of if you think You you might fall victim to the momentum of the way things are done in the past unless you think in this way Well just as a function of inertia people Want to use the same tools and methods that they are familiar with They just that's what they'll do by default yeah, and then that that will lead to an outcome of things that can be made with those tools and methods, but is unlikely to be the platonic ideal of the perfect product So then so that's why it's good to think of things in both directions So like what can we build with the tools that we have? but then but but also what is the what is the perfect the theoretical perfect product look like and and that that Theoretical perfect part is going to be a moving target because as you learn more the definition of For that perfect product will change because you don't actually know what the perfect product is, but you can successfully approximate a more perfect product So thinking about it like that and then saying okay now what tools methods materials, whatever do we need to? Create in order to get the atoms in that shape but people Rarely think about it that way But it's a powerful tool. I Should mention that the brilliant Siobhan Zillis is hanging Hanging out with us in case you hear a voice of wisdom from from from outside from up above Okay, so let me ask you about Mars you mentioned it would be great for science to put a base on the moon to do some research, but The truly big leap again in this category of seemingly impossible is to put",
+    "start_time": "00:24:35.450",
+    "end_time": "00:27:46.560",
+    "char_start": 19864,
+    "char_end": 22332,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 500
+  },
+  {
+    "chunk_id": 11,
+    "text": "powerful tool. I Should mention that the brilliant Siobhan Zillis is hanging Hanging out with us in case you hear a voice of wisdom from from from outside from up above Okay, so let me ask you about Mars you mentioned it would be great for science to put a base on the moon to do some research, but The truly big leap again in this category of seemingly impossible is to put a human being on Mars When do you think SpaceX will land a human being on Mars? hmm best case is about five years worst case ten years What are the determining factors would you say from an engineering perspective or is that that not the bottlenecks? You know, it's fundamentally You know engineering the vehicle I mean Starship is the most Complex and advanced rocket that's ever been made by I Don't know order of magnitude or something like that. It's a lot. It's really next level. So And the fundamental optimisation of Starship is minimising cost per tonne to orbit and ultimately cost per tonne to the surface of Mars This may seem like a mercantile objective, but it is actually the thing that needs to be optimised Like there is a certain Cost per tonne to the surface of Mars where we can afford to establish a self-sustaining City And and then above that we cannot afford to do it So right now you couldn't fly to Mars for a trillion dollars doesn't no amount of money could get you a ticket to Mars So we need to get that above You know to get that like something that is actually possible at all But but then but that's that's We don't want to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:27:01.500",
+    "end_time": "00:29:58.090",
+    "char_start": 21958,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 401
+  },
+  {
+    "chunk_id": 12,
+    "text": "that's that's We don't want to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23459,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 81
+  },
+  {
+    "chunk_id": 13,
+    "text": "that's We don't want to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23466,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 79
+  },
+  {
+    "chunk_id": 14,
+    "text": "We don't want to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23473,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 77
+  },
+  {
+    "chunk_id": 15,
+    "text": "don't want to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23476,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 76
+  },
+  {
+    "chunk_id": 16,
+    "text": "want to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23482,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 74
+  },
+  {
+    "chunk_id": 17,
+    "text": "to just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23487,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 73
+  },
+  {
+    "chunk_id": 18,
+    "text": "just want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23490,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 72
+  },
+  {
+    "chunk_id": 19,
+    "text": "want to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23495,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 71
+  },
+  {
+    "chunk_id": 20,
+    "text": "to have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23500,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 70
+  },
+  {
+    "chunk_id": 21,
+    "text": "have you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23503,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 69
+  },
+  {
+    "chunk_id": 22,
+    "text": "you know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23508,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 68
+  },
+  {
+    "chunk_id": 23,
+    "text": "know with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23512,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 67
+  },
+  {
+    "chunk_id": 24,
+    "text": "with Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23517,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 66
+  },
+  {
+    "chunk_id": 25,
+    "text": "Mars flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23522,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 66
+  },
+  {
+    "chunk_id": 26,
+    "text": "flags and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23527,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 64
+  },
+  {
+    "chunk_id": 27,
+    "text": "and footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23533,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 63
+  },
+  {
+    "chunk_id": 28,
+    "text": "footprints and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23537,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 62
+  },
+  {
+    "chunk_id": 29,
+    "text": "and then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23548,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 60
+  },
+  {
+    "chunk_id": 30,
+    "text": "then not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23552,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 59
+  },
+  {
+    "chunk_id": 31,
+    "text": "not come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23557,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 58
+  },
+  {
+    "chunk_id": 32,
+    "text": "come back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23561,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 57
+  },
+  {
+    "chunk_id": 33,
+    "text": "back for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23566,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 56
+  },
+  {
+    "chunk_id": 34,
+    "text": "for a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23571,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 55
+  },
+  {
+    "chunk_id": 35,
+    "text": "a half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23575,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 54
+  },
+  {
+    "chunk_id": 36,
+    "text": "half-century Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23577,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 53
+  },
+  {
+    "chunk_id": 37,
+    "text": "Like we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23590,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 51
+  },
+  {
+    "chunk_id": 38,
+    "text": "we did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23595,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 50
+  },
+  {
+    "chunk_id": 39,
+    "text": "did with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23598,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 49
+  },
+  {
+    "chunk_id": 40,
+    "text": "with the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23602,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 48
+  },
+  {
+    "chunk_id": 41,
+    "text": "the moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23607,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 47
+  },
+  {
+    "chunk_id": 42,
+    "text": "moon in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23611,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 46
+  },
+  {
+    "chunk_id": 43,
+    "text": "in order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23616,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 45
+  },
+  {
+    "chunk_id": 44,
+    "text": "order to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23619,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 44
+  },
+  {
+    "chunk_id": 45,
+    "text": "to Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23625,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 43
+  },
+  {
+    "chunk_id": 46,
+    "text": "Pass a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23628,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 42
+  },
+  {
+    "chunk_id": 47,
+    "text": "a very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23633,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 41
+  },
+  {
+    "chunk_id": 48,
+    "text": "very important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23635,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 40
+  },
+  {
+    "chunk_id": 49,
+    "text": "important to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23640,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 39
+  },
+  {
+    "chunk_id": 50,
+    "text": "to great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23650,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 38
+  },
+  {
+    "chunk_id": 51,
+    "text": "great filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23653,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 37
+  },
+  {
+    "chunk_id": 52,
+    "text": "filter. I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23659,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 36
+  },
+  {
+    "chunk_id": 53,
+    "text": "I think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23667,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 34
+  },
+  {
+    "chunk_id": 54,
+    "text": "think we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23669,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 33
+  },
+  {
+    "chunk_id": 55,
+    "text": "we need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23675,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 32
+  },
+  {
+    "chunk_id": 56,
+    "text": "need to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23678,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 31
+  },
+  {
+    "chunk_id": 57,
+    "text": "to be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23683,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 30
+  },
+  {
+    "chunk_id": 58,
+    "text": "be a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23686,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 29
+  },
+  {
+    "chunk_id": 59,
+    "text": "a multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23689,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 28
+  },
+  {
+    "chunk_id": 60,
+    "text": "multi -planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23691,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 27
+  },
+  {
+    "chunk_id": 61,
+    "text": "-planet species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23697,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 26
+  },
+  {
+    "chunk_id": 62,
+    "text": "species Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23705,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 24
+  },
+  {
+    "chunk_id": 63,
+    "text": "Um Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23713,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 23
+  },
+  {
+    "chunk_id": 64,
+    "text": "Let's make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23716,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 22
+  },
+  {
+    "chunk_id": 65,
+    "text": "make sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23722,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 20
+  },
+  {
+    "chunk_id": 66,
+    "text": "sound somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23727,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 19
+  },
+  {
+    "chunk_id": 67,
+    "text": "somewhat esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23733,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 19
+  },
+  {
+    "chunk_id": 68,
+    "text": "esoteric to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23742,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 17
+  },
+  {
+    "chunk_id": 69,
+    "text": "to to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23751,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 15
+  },
+  {
+    "chunk_id": 70,
+    "text": "to a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23754,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 14
+  },
+  {
+    "chunk_id": 71,
+    "text": "a lot of people but I Eventually given enough time That's something",
+    "start_time": "00:28:43.630",
+    "end_time": "00:29:58.090",
+    "char_start": 23757,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 13
+  },
+  {
+    "chunk_id": 72,
+    "text": "lot of people but I Eventually given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23759,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 12
+  },
+  {
+    "chunk_id": 73,
+    "text": "of people but I Eventually given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23763,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 11
+  },
+  {
+    "chunk_id": 74,
+    "text": "people but I Eventually given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23766,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 10
+  },
+  {
+    "chunk_id": 75,
+    "text": "but I Eventually given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23773,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 9
+  },
+  {
+    "chunk_id": 76,
+    "text": "I Eventually given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23777,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 8
+  },
+  {
+    "chunk_id": 77,
+    "text": "Eventually given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23779,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 7
+  },
+  {
+    "chunk_id": 78,
+    "text": "given enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23790,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 6
+  },
+  {
+    "chunk_id": 79,
+    "text": "enough time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23796,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 6
+  },
+  {
+    "chunk_id": 80,
+    "text": "time That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23803,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 4
+  },
+  {
+    "chunk_id": 81,
+    "text": "That's something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23808,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 3
+  },
+  {
+    "chunk_id": 82,
+    "text": "something",
+    "start_time": "00:29:43.170",
+    "end_time": "00:29:58.090",
+    "char_start": 23815,
+    "char_end": 23824,
+    "source": "3fd9d697fa484c0b82b0a0cba10840ff_Elon Musk_ SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI _ Lex Fridman Podcast #252",
+    "token_count": 1
+  }
+]

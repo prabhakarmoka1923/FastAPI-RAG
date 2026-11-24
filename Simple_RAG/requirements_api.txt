@@ -1,0 +1,14 @@
+# FastAPI backend dependencies
+# Install into the ragpc conda environment:
+#   conda activate ragpc && pip install -r requirements_api.txt
+# Do NOT duplicate packages already in requirements.txt (numpy, sentence-transformers, etc.)
+
+fastapi[standard]
+uvicorn[standard]
+pydantic-settings
+python-multipart        # required for UploadFile to work
+sse-starlette           # for the streaming lesson
+slowapi                 # for the rate-limiting lesson
+httpx                   # required for TestClient in tests
+pytest
+pytest-asyncio
